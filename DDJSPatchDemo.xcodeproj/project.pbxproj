@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5906348F1DADD88900C19712 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5906348E1DADD88900C19712 /* JavaScriptCore.framework */; };
+		590634911DADD8B100C19712 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 590634901DADD8B100C19712 /* libz.tbd */; };
+		590634931DADF33900C19712 /* DDNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590634921DADF33900C19712 /* DDNavVC.swift */; };
+		590634951DADF34400C19712 /* DDVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590634941DADF34400C19712 /* DDVC.swift */; };
+		590634971DAE5C7E00C19712 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 590634961DAE5C7E00C19712 /* main.js */; };
 		595FCFDC1DAC923D005D2092 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595FCFDB1DAC923D005D2092 /* AppDelegate.swift */; };
-		595FCFDE1DAC923D005D2092 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595FCFDD1DAC923D005D2092 /* MasterViewController.swift */; };
-		595FCFE01DAC923D005D2092 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595FCFDF1DAC923D005D2092 /* DetailViewController.swift */; };
 		595FCFE31DAC923D005D2092 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 595FCFE11DAC923D005D2092 /* Main.storyboard */; };
 		595FCFE51DAC923E005D2092 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 595FCFE41DAC923E005D2092 /* Assets.xcassets */; };
 		595FCFE81DAC923E005D2092 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 595FCFE61DAC923E005D2092 /* LaunchScreen.storyboard */; };
 		595FCFF31DAC923E005D2092 /* DDJSPatchDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595FCFF21DAC923E005D2092 /* DDJSPatchDemoTests.swift */; };
 		595FCFFE1DAC923E005D2092 /* DDJSPatchDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595FCFFD1DAC923E005D2092 /* DDJSPatchDemoUITests.swift */; };
+		B3D0DA8EC6AD4440DDBA0ED6 /* Pods_DDJSPatchDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862FE88B878A03E4F094F5D8 /* Pods_DDJSPatchDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5906348E1DADD88900C19712 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		590634901DADD8B100C19712 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		590634921DADF33900C19712 /* DDNavVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDNavVC.swift; sourceTree = "<group>"; };
+		590634941DADF34400C19712 /* DDVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDVC.swift; sourceTree = "<group>"; };
+		590634961DAE5C7E00C19712 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
 		595FCFD81DAC923D005D2092 /* DDJSPatchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDJSPatchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		595FCFDB1DAC923D005D2092 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		595FCFDD1DAC923D005D2092 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		595FCFDF1DAC923D005D2092 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		595FCFE21DAC923D005D2092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		595FCFE41DAC923E005D2092 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		595FCFE71DAC923E005D2092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +56,9 @@
 		595FCFF91DAC923E005D2092 /* DDJSPatchDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDJSPatchDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		595FCFFD1DAC923E005D2092 /* DDJSPatchDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDJSPatchDemoUITests.swift; sourceTree = "<group>"; };
 		595FCFFF1DAC923E005D2092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A505D7C6CC944A92FCC7659 /* Pods-DDJSPatchDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDJSPatchDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DDJSPatchDemo/Pods-DDJSPatchDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		862FE88B878A03E4F094F5D8 /* Pods_DDJSPatchDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDJSPatchDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA87AAB4AE0D77D5F3A7D2BF /* Pods-DDJSPatchDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDJSPatchDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DDJSPatchDemo/Pods-DDJSPatchDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				590634911DADD8B100C19712 /* libz.tbd in Frameworks */,
+				5906348F1DADD88900C19712 /* JavaScriptCore.framework in Frameworks */,
+				B3D0DA8EC6AD4440DDBA0ED6 /* Pods_DDJSPatchDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +92,14 @@
 		595FCFCF1DAC923D005D2092 = {
 			isa = PBXGroup;
 			children = (
+				590634921DADF33900C19712 /* DDNavVC.swift */,
+				590634941DADF34400C19712 /* DDVC.swift */,
 				595FCFDA1DAC923D005D2092 /* DDJSPatchDemo */,
 				595FCFF11DAC923E005D2092 /* DDJSPatchDemoTests */,
 				595FCFFC1DAC923E005D2092 /* DDJSPatchDemoUITests */,
 				595FCFD91DAC923D005D2092 /* Products */,
+				BF5A6C9F3B40EA6350791442 /* Pods */,
+				5AD103DD2F6FE230C02DED6E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +117,11 @@
 			isa = PBXGroup;
 			children = (
 				595FCFDB1DAC923D005D2092 /* AppDelegate.swift */,
-				595FCFDD1DAC923D005D2092 /* MasterViewController.swift */,
-				595FCFDF1DAC923D005D2092 /* DetailViewController.swift */,
 				595FCFE11DAC923D005D2092 /* Main.storyboard */,
 				595FCFE41DAC923E005D2092 /* Assets.xcassets */,
 				595FCFE61DAC923E005D2092 /* LaunchScreen.storyboard */,
 				595FCFE91DAC923E005D2092 /* Info.plist */,
+				590634961DAE5C7E00C19712 /* main.js */,
 			);
 			path = DDJSPatchDemo;
 			sourceTree = "<group>";
@@ -128,6 +144,25 @@
 			path = DDJSPatchDemoUITests;
 			sourceTree = "<group>";
 		};
+		5AD103DD2F6FE230C02DED6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				590634901DADD8B100C19712 /* libz.tbd */,
+				5906348E1DADD88900C19712 /* JavaScriptCore.framework */,
+				862FE88B878A03E4F094F5D8 /* Pods_DDJSPatchDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF5A6C9F3B40EA6350791442 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A505D7C6CC944A92FCC7659 /* Pods-DDJSPatchDemo.debug.xcconfig */,
+				AA87AAB4AE0D77D5F3A7D2BF /* Pods-DDJSPatchDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 595FD0021DAC923E005D2092 /* Build configuration list for PBXNativeTarget "DDJSPatchDemo" */;
 			buildPhases = (
+				1343E62B709808530951C525 /* [CP] Check Pods Manifest.lock */,
 				595FCFD41DAC923D005D2092 /* Sources */,
 				595FCFD51DAC923D005D2092 /* Frameworks */,
 				595FCFD61DAC923D005D2092 /* Resources */,
+				30F53A5AC1D9595FD0F63680 /* [CP] Embed Pods Frameworks */,
+				B4D7A1C377DED7528BF97983 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,6 +276,7 @@
 				595FCFE81DAC923E005D2092 /* LaunchScreen.storyboard in Resources */,
 				595FCFE51DAC923E005D2092 /* Assets.xcassets in Resources */,
 				595FCFE31DAC923D005D2092 /* Main.storyboard in Resources */,
+				590634971DAE5C7E00C19712 /* main.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +296,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1343E62B709808530951C525 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		30F53A5AC1D9595FD0F63680 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DDJSPatchDemo/Pods-DDJSPatchDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4D7A1C377DED7528BF97983 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DDJSPatchDemo/Pods-DDJSPatchDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		595FCFD41DAC923D005D2092 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				595FCFE01DAC923D005D2092 /* DetailViewController.swift in Sources */,
-				595FCFDE1DAC923D005D2092 /* MasterViewController.swift in Sources */,
+				590634931DADF33900C19712 /* DDNavVC.swift in Sources */,
+				590634951DADF34400C19712 /* DDVC.swift in Sources */,
 				595FCFDC1DAC923D005D2092 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,9 +493,11 @@
 		};
 		595FD0031DAC923E005D2092 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A505D7C6CC944A92FCC7659 /* Pods-DDJSPatchDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DDJSPatchDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.byteDance.SwiftTest.DDJSPatchDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -417,9 +506,11 @@
 		};
 		595FD0041DAC923E005D2092 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA87AAB4AE0D77D5F3A7D2BF /* Pods-DDJSPatchDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DDJSPatchDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.byteDance.SwiftTest.DDJSPatchDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -491,6 +582,7 @@
 				595FD0041DAC923E005D2092 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		595FD0051DAC923E005D2092 /* Build configuration list for PBXNativeTarget "DDJSPatchDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +591,7 @@
 				595FD0071DAC923E005D2092 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		595FD0081DAC923E005D2092 /* Build configuration list for PBXNativeTarget "DDJSPatchDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +600,7 @@
 				595FD00A1DAC923E005D2092 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

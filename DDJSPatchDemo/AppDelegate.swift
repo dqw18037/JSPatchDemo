@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import JSPatchPlatform
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate {
@@ -15,13 +16,31 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
-        let splitViewController = self.window!.rootViewController as! UISplitViewController
-        let navigationController = splitViewController.viewControllers[splitViewController.viewControllers.count-1] as! UINavigationController
-        navigationController.topViewController!.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem()
-        splitViewController.delegate = self
+//        let path = NSBundle.mainBundle().pathForResource("main", ofType: "js")
+//        var script = "xx"
+//        do {
+//            try script = NSString(contentsOfFile: path!, encoding: NSUTF8StringEncoding) as String
+//        } catch {
+//            
+//        }
+//        print(script)
+
+//        JSPatch.testScriptInBundle()
+
+        let window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        self.window = window
+        self.window!.makeKeyAndVisible()
+        let vc = DDVC()
+        let nav = DDNavVC(rootViewController: vc)
+        self.window?.rootViewController = nav
+        
+        JSPatch.startWithAppKey("d624e24f0e4ac37e")
+        JSPatch.sync()
+ 
         return true
     }
+    
+
 
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -45,17 +64,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-    // MARK: - Split view
-
-    func splitViewController(splitViewController: UISplitViewController, collapseSecondaryViewController secondaryViewController:UIViewController, ontoPrimaryViewController primaryViewController:UIViewController) -> Bool {
-        guard let secondaryAsNavController = secondaryViewController as? UINavigationController else { return false }
-        guard let topAsDetailController = secondaryAsNavController.topViewController as? DetailViewController else { return false }
-        if topAsDetailController.detailItem == nil {
-            // Return true to indicate that we have handled the collapse by doing nothing; the secondary controller will be discarded.
-            return true
-        }
-        return false
-    }
 
 }
 
