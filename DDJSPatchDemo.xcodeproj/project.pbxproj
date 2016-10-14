@@ -11,13 +11,15 @@
 		590634911DADD8B100C19712 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 590634901DADD8B100C19712 /* libz.tbd */; };
 		590634931DADF33900C19712 /* DDNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590634921DADF33900C19712 /* DDNavVC.swift */; };
 		590634951DADF34400C19712 /* DDVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590634941DADF34400C19712 /* DDVC.swift */; };
-		590634971DAE5C7E00C19712 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 590634961DAE5C7E00C19712 /* main.js */; };
 		595FCFDC1DAC923D005D2092 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595FCFDB1DAC923D005D2092 /* AppDelegate.swift */; };
 		595FCFE31DAC923D005D2092 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 595FCFE11DAC923D005D2092 /* Main.storyboard */; };
 		595FCFE51DAC923E005D2092 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 595FCFE41DAC923E005D2092 /* Assets.xcassets */; };
 		595FCFE81DAC923E005D2092 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 595FCFE61DAC923E005D2092 /* LaunchScreen.storyboard */; };
 		595FCFF31DAC923E005D2092 /* DDJSPatchDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595FCFF21DAC923E005D2092 /* DDJSPatchDemoTests.swift */; };
 		595FCFFE1DAC923E005D2092 /* DDJSPatchDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595FCFFD1DAC923E005D2092 /* DDJSPatchDemoUITests.swift */; };
+		5977422D1DAF333800321B94 /* simpleDemo.js in Resources */ = {isa = PBXBuildFile; fileRef = 5977422C1DAF333800321B94 /* simpleDemo.js */; };
+		5977422F1DAF364200321B94 /* propertyTest.js in Resources */ = {isa = PBXBuildFile; fileRef = 5977422E1DAF364200321B94 /* propertyTest.js */; };
+		59DF245B1DB0AE8200364858 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 59DF245A1DB0AE8200364858 /* main.js */; };
 		B3D0DA8EC6AD4440DDBA0ED6 /* Pods_DDJSPatchDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862FE88B878A03E4F094F5D8 /* Pods_DDJSPatchDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,7 +45,6 @@
 		590634901DADD8B100C19712 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		590634921DADF33900C19712 /* DDNavVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDNavVC.swift; sourceTree = "<group>"; };
 		590634941DADF34400C19712 /* DDVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDVC.swift; sourceTree = "<group>"; };
-		590634961DAE5C7E00C19712 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
 		595FCFD81DAC923D005D2092 /* DDJSPatchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDJSPatchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		595FCFDB1DAC923D005D2092 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		595FCFE21DAC923D005D2092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,6 +57,10 @@
 		595FCFF91DAC923E005D2092 /* DDJSPatchDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDJSPatchDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		595FCFFD1DAC923E005D2092 /* DDJSPatchDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDJSPatchDemoUITests.swift; sourceTree = "<group>"; };
 		595FCFFF1DAC923E005D2092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5977422C1DAF333800321B94 /* simpleDemo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = simpleDemo.js; sourceTree = "<group>"; };
+		5977422E1DAF364200321B94 /* propertyTest.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = propertyTest.js; sourceTree = "<group>"; };
+		59DF24591DB0A14600364858 /* DDJSPatchDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DDJSPatchDemo.entitlements; sourceTree = "<group>"; };
+		59DF245A1DB0AE8200364858 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
 		7A505D7C6CC944A92FCC7659 /* Pods-DDJSPatchDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDJSPatchDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DDJSPatchDemo/Pods-DDJSPatchDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		862FE88B878A03E4F094F5D8 /* Pods_DDJSPatchDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDJSPatchDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA87AAB4AE0D77D5F3A7D2BF /* Pods-DDJSPatchDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDJSPatchDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DDJSPatchDemo/Pods-DDJSPatchDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,12 +121,15 @@
 		595FCFDA1DAC923D005D2092 /* DDJSPatchDemo */ = {
 			isa = PBXGroup;
 			children = (
+				59DF24591DB0A14600364858 /* DDJSPatchDemo.entitlements */,
 				595FCFDB1DAC923D005D2092 /* AppDelegate.swift */,
 				595FCFE11DAC923D005D2092 /* Main.storyboard */,
 				595FCFE41DAC923E005D2092 /* Assets.xcassets */,
 				595FCFE61DAC923E005D2092 /* LaunchScreen.storyboard */,
 				595FCFE91DAC923E005D2092 /* Info.plist */,
-				590634961DAE5C7E00C19712 /* main.js */,
+				5977422C1DAF333800321B94 /* simpleDemo.js */,
+				59DF245A1DB0AE8200364858 /* main.js */,
+				5977422E1DAF364200321B94 /* propertyTest.js */,
 			);
 			path = DDJSPatchDemo;
 			sourceTree = "<group>";
@@ -234,7 +242,11 @@
 				TargetAttributes = {
 					595FCFD71DAC923D005D2092 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = W5J3B5YX4N;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					595FCFED1DAC923E005D2092 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -273,10 +285,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5977422D1DAF333800321B94 /* simpleDemo.js in Resources */,
+				5977422F1DAF364200321B94 /* propertyTest.js in Resources */,
 				595FCFE81DAC923E005D2092 /* LaunchScreen.storyboard in Resources */,
+				59DF245B1DB0AE8200364858 /* main.js in Resources */,
 				595FCFE51DAC923E005D2092 /* Assets.xcassets in Resources */,
 				595FCFE31DAC923D005D2092 /* Main.storyboard in Resources */,
-				590634971DAE5C7E00C19712 /* main.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +510,8 @@
 			baseConfigurationReference = 7A505D7C6CC944A92FCC7659 /* Pods-DDJSPatchDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DDJSPatchDemo/DDJSPatchDemo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DDJSPatchDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -509,6 +525,8 @@
 			baseConfigurationReference = AA87AAB4AE0D77D5F3A7D2BF /* Pods-DDJSPatchDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DDJSPatchDemo/DDJSPatchDemo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DDJSPatchDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

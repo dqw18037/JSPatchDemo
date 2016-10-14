@@ -16,17 +16,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-//        let path = NSBundle.mainBundle().pathForResource("main", ofType: "js")
-//        var script = "xx"
-//        do {
-//            try script = NSString(contentsOfFile: path!, encoding: NSUTF8StringEncoding) as String
-//        } catch {
-//            
-//        }
-//        print(script)
 
 //        JSPatch.testScriptInBundle()
-
+        JSPatch.startWithAppKey("d624e24f0e4ac37e")
+        
+        JSPatch.setupRSAPublicKey("-----BEGIN PUBLIC KEY-----\nMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDYkP+i6pAH8yFg5Qa0xTJ0txTo\nRGFSTV3GpAzhjDUUX+NAQHDRyeA2Q9Zlc0ColBiCCPquS5BhAYaaD88DEEf+p9fm\nnD9NXh5YG4P8OYx+GfZ5iwHkIh2YjQzh/gI+etjFLcUAQesldChV5QxXw6SSAYG0\n57DsLZn0MXgN5m5XQwIDAQAB\n-----END PUBLIC KEY-----")
+        JSPatch.sync()
+        
+//        JSPatch.updateConfigWithAppKey("d624e24f0e4ac37e", withInterval: 1.0)
+//        JSPatch.setupUpdatedConfigCallback { (configs, error) in
+//            if let configs = configs{
+//                print(configs)
+//            }
+//        }
+//        let configs = JSPatch.getConfigParams()
+//        print(configs)
         let window = UIWindow(frame: UIScreen.mainScreen().bounds)
         self.window = window
         self.window!.makeKeyAndVisible()
@@ -34,13 +38,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         let nav = DDNavVC(rootViewController: vc)
         self.window?.rootViewController = nav
         
-        JSPatch.startWithAppKey("d624e24f0e4ac37e")
-        JSPatch.sync()
- 
         return true
     }
     
-
+    private func printScript() {
+        let path = NSBundle.mainBundle().pathForResource("main", ofType: "js")
+        do {
+            let script = try NSString(contentsOfFile: path!, encoding: NSUTF8StringEncoding) as String
+            print(script)
+        } catch {}
+    }
 
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
